@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 from utilsforecast.losses import mse
 
-api_key = "nixak-4LLdE3mTvzrtxyzj9Resq7AABQYHLDRsufVfWXMxFtx8PQgkZicY0JFnpYRa6ZbxyMG7Z7b01GXxkUW7"
+api_key = " "
 client = NixtlaClient(api_key=api_key)
 data = pd.read_excel("eCO2mix_RTE_Annuel-Definitif_2020 _2021_2022.xlsx")
 df = pd.DataFrame(data=data, columns=["Date", "Heures", "Consommation"])
